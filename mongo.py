@@ -23,5 +23,5 @@ class Mongo:
             print("Pinged your deployment. You successfully connected to MongoDB!")
         except Exception as e:
             print(e)
-
-Mongo().test_connection()
+if __name__ == "__main__":
+    Mongo().test_connection()
